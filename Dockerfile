@@ -14,6 +14,8 @@ RUN    chmod +x /start
 
 EXPOSE 19132
 
+CMD    ["/start"]
+
 WORKDIR /bedrock-server
 ENV LD_LIBRARY_PATH=.
 CMD ./bedrock_server
