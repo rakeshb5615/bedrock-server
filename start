@@ -1,0 +1,2 @@
+ngrok authtoken 1iE4TwANRWIl5bqO2vaBKAWV4h4_77QQYDenAGeLuVQCw9kVY
+ngrok tcp 19132 > /dev/null &
